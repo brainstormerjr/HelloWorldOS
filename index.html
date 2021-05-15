@@ -4,6 +4,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;700;900&display=swap" rel="stylesheet"> 
 
+<div style="width: fit-content;">
 <body class="parallaxTop" style="background-image: url(images/homeScreenBlurred.png);">
 
     <p class="title"><strong>HELLO WORLD OS</strong></p>
@@ -92,27 +93,28 @@
     <p class="downloadNow">Get Hello World OS Today.</p>
     <div class="row">
         <div class="column">
-            <p class="planTitle">Standard</p>
+            <p class="planTitle"><u>Standard</u></p>
             <p class="oldPlanPrice"><s>US$150.00</s></p>
             <p class="newPlanPrice">US$0.00</p>
-            <button class="button downloadButton" onclick="standardDownload()">Download</button>
+            <button class="button downloadButton" onclick="standardDownload()">Download .elf file</button>
             <a href="downloads/standard.elf" download="standard.elf" style="display:none" id="standardDownload">download</a>
         </div>
         <div class="column">
-            <p class="planTitle">Professionals</p>
+            <p class="planTitle"><u>Professionals</u></p>
             <p class="oldPlanPrice"><s>US$400.00</s></p>
             <p class="newPlanPrice">US$0.00</p>
-            <button class="button downloadButton" onclick="proDownload()">Download</button>
+            <button class="button downloadButton" onclick="proDownload()">Download .elf file</button>
             <a href="downloads/pro.elf" download="pro.elf" style="display:none" id="proDownload">download</a>
         </div>
         <div class="column">
-            <p class="planTitle">Corporations</p>
+            <p class="planTitle"><u>Corporations</u></p>
             <p class="oldPlanPrice"><s>US$1,000.00</s></p>
             <p class="newPlanPrice">US$0.00</p>
-            <button class="button downloadButton" onclick="corporationDownload()">Download</button>
+            <button class="button downloadButton" onclick="corporationDownload()">Download .elf file</button>
             <a href="downloads/corporation.elf" download="corporation.elf" style="display:none" id="corporationDownload">download</a>
         </div>
     </div>
+</div>
 </div>
 
 <script>
