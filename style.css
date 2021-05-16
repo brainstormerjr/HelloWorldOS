@@ -107,6 +107,14 @@
     padding: 80px;
 }
 
+.aboutBlack {
+    background-color: black;
+    font-size:22px;
+    font-family:'Poppins', sans-serif;
+    padding: 80px;
+    color: white;
+}
+
 .downloadDIV {
     background-color:rgb(255, 255, 255);
     font-size:22px; 
