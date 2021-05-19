@@ -25,10 +25,11 @@ const chartSettings = {
         datasets: [
             {
                 data: [15.64 * 1024, 10.50 * 1024, 12.23 * 1024, 4.5 * 1024, 4 * 1024, 16/1024],
-                backgroundColor: ['rgb(255, 89, 139)', 'rgb(105, 197, 255)', 'rgb(175, 255, 105)', 'rgb(250, 126, 77)', 'rgb(142, 107, 255)'],
-                borderColor: ['rgba(0,0,0,1)'],
-                borderWidth: 3,
-                borderRadius: 10
+                //backgroundColor: ['rgb(255, 89, 139)', 'rgb(105, 197, 255)', 'rgb(175, 255, 105)', 'rgb(250, 126, 77)', 'rgb(142, 107, 255)'],
+                backgroundColor: ["#db6eac", "#d160a8", "#d160c6", "#bc60d1", "#a868d4"],
+                borderColor: ['#36447d'],
+                borderWidth: 0,
+                borderRadius: 6
             }
         ]
     },
@@ -90,7 +91,7 @@ const chartSettings = {
         },
         animation: {
             duration: 1000,
-            easing: "easeOutElastic"
+            easing: "easeOutQuart"
         },
         responsive: false,
         maintainAspectRatio: false,
