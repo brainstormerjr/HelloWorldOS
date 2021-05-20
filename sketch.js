@@ -29,8 +29,7 @@ const chartSettings = {
                 backgroundColor: ["#db6eac", "#d160a8", "#d160c6", "#bc60d1", "#a868d4"],
                 borderColor: ['#36447d'],
                 borderWidth: 0,
-                borderRadius: 6,
-                width: 2
+                borderRadius: 6
             }
         ]
     },
