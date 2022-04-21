@@ -90,25 +90,4 @@ void term_print(const char* str)
 // This is our kernel's main function
 void kernel_main()
 {
-	// We're here! Let's initiate the terminal and display a message to show we got here.
- 
-	// Initiate terminal
-	term_init();
- 
-	// Display some messages
-	term_print("\n");
-	term_print(" Welcome to\n");
-	term_print(" _     _  ______  _       _       ______     ______________     ______________\n");
-	term_print("| |   | ||  ____|| |     | |     |  __  |   /              \\   /              \\\n");
-	term_print("| |___| || |____ | |     | |     | |  | |  /    _________   \\ /    ___________/\n");
-	term_print("|  ___  ||  ____|| |     | |     | |  | |  |   |         |  | |   |\n");
-	term_print("| |   | || |____ | |____ | |____ | |__| |  |   |         |  | |   | \n");       
-	term_print("|_|   |_||______||______||______||______|  |   |         |  | |   |___________\n");        
-	term_print(" _     _  ______  _____   _       _____    |   |         |  | \\               \\\n");
-	term_print("| | _ | ||  __  ||  _  | | |     |  __ \\   |   |         |  |  \\___________   |\n");
-	term_print("| |/ \\| || |  | || |_| | | |     | |  | |  |   |         |  |              |  |\n");
-	term_print("|       || |  | ||     | | |     | |  | |  |   |_________|  |  ____________|  |\n");
-	term_print("|  /\\   || |__| || |\\  \\ | |____ | |  | |  \\                / /               /\n");
-	term_print("|_/  \\__||______||_| \\__\\|______||_____/    \\______________/  \\______________/\n");
-	term_print("\n                                                    Corporation Version 1.0.0\n");
 }
