@@ -111,4 +111,5 @@ void kernel_main()
 	term_print("|  /\\   || |__| || |\\  \\ | |____ | |  | |  \\                / /               /\n");
 	term_print("|_/  \\__||______||_| \\__\\|______||_____/    \\______________/  \\______________/\n");
 	term_print("\n                                                    Corporation Version 1.0.0\n");
+	term_print("\nLook mom I am inside a oprating system :DDDD pleaseede don't disown me :DDDDD\n");
 }
