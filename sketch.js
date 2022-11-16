@@ -48,7 +48,7 @@ const chartSettings = {
                     font: {
                         size: 18,
                         family: 'Poppins',
-                        style: 'sans-seriff',
+                        style: 'sans-serif',
                         weight: 600
                     }
                 },
