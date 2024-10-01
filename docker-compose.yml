@@ -1,0 +1,6 @@
+services:
+  portfolio-2.0:
+    image: brainstormerjr/HelloWorldOS:latest
+    ports:
+      - "4000:4000"
+    restart: always
